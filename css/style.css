@@ -4,7 +4,7 @@
     font-family: 'Cormorant SC', serif;
 }
 html {
-    background-color: rgba(205, 177, 143, 1);
+    background-color: rgb(154, 204, 167);
 }
 #survey-form {
 }
@@ -81,7 +81,7 @@ html {
     text-align: center;
     font-size: 24px;
     font-weight: 900;
-    background: rgba(205, 177, 143, 1);
+    background: rgba(154, 204, 167, 1);
 
 }
 label {
@@ -159,7 +159,6 @@ select {
 }
 select:focus-within {
     display: block;
-    background-color: rgb(255, 254, 175);
 }
 option {
     display: block;
