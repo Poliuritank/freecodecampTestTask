@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>FDC Task</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <header class="header">
+                <div class="tite">
+                    <h1 id="title">Most Honorable Member of the Noble Pickwickian Club</h1>
+                </div>
+                <div class="subline"><span></span></div>
+                <div class="subtitle">
+                    <p id="description">Please enter your lovely details</p>
+                </div>
+            </header>
+
+            <div class="content">
+                <form action="" method="#" id="survey-form">
+                    <div class="form-item">
+                        <label for="name" id="name-label">Beautiful Name</label>
+                        <input type="text" id="name" placeholder="Mr. Pickwick" required=>
+                    </div>
+
+                    <div class="form-item">                    
+                        <label for="email" id="email-label">Mailing Address</label>
+                        <input type="email" id="email" name="email" placeholder="mr.pickwick@gmail.com" required>
+                    </div>
+                    
+                    <div class="form-item">
+                        <label for="number" id="number-label">Respectable Age <small>(if you are a gentleman)</small></label>
+                        <input type="number" id="number" name="number" min="18" max="200" placeholder="Respectable Age Only" required>
+                    </div>
+
+                    <div class="form-item">
+                        <p>How respected are you in the community?</p>
+                        <select id="dropdown" required=>
+                            <option disabled selected value>Grace us with an answer.</option>
+                            <option value="very">I am very respected.</option>
+                            <option value="loved">I am very respected and loved.</option>
+                            <option value="by-wives">I am very respected and loved, especially by noble wives of respectable husbands.</option>
+                        </select>
+                    </div>
+                    <div class="form-item">
+                        <p>What makes the Pickwick Club attractive to you?</p>
+                        <label>
+                            <input type="radio" name="recommend" value="nobility" class="radio-btn" checked>
+                            The greatest nobility of this respected institution.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="recommend" value="heroism" class="radio-btn">
+                            The unprecedented heroism of the members of the club and especially their leader - Mr. Pickwick
+                        </label>
+
+                        <label>
+                            <input type="radio" name="recommend" value="eternal" class="radio-btn">
+                            The desire to touch the beautiful, eternal, incomprehensible.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="recommend" value="all" class="radio-btn">
+                            All of the above are benefactors.
+                        </label>
+                    </div>
+
+                    <div class="form-item">
+                        <p>As you read the news coverage of the club's and Mr. Pickwick's greatest exploits, you:</p>
+                        <select id="dropdown" name="news" class="news" required>
+                          <option disabled selected value>Choose the one you want.</option>
+                          <option value="cry">I cry with happiness.</option>
+                          <option value="clinic">I read the news to every patient who comes to my clinic.</option>
+                          <option value="clapping">I run through the streets, laughing and clapping my hands.</option>
+                          <option value="insignificant">I am overwhelmed with a feeling of love, and I shout out the window at the peasants!</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-item">
+                        <p>
+                            What heroic deeds of Mr. Pickwick have you heard of?
+                          <span class="postscript">(Don't be shy about your admiration.)</span>
+                        </p>
+              
+                        <label><input name="deeds" value="odeedsldLadies" type="checkbox" class="checkbox">How Mr. Pickwick helped 17,000 old ladies cross the road in one day.</label>
+                        <label><input name="deeds" value="eyes" type="checkbox" class="checkbox">How Mr. Pickwick turned into a sparrow and pecked out Putin's eyes.</label>
+                        <label><input name="deeds" value="giza" type="checkbox" class="checkbox">How Mr. Pickwick fixed the collapsed pyramid at Giza.</label>
+                        <label><input name="deeds" value="chuck" type="checkbox" class="checkbox">How Mr. Pickwick coached Chuck Norris.</label>
+                        <label><input name="deeds" value="competition" type="checkbox" class="checkbox">How Mr. Pickwick won the archery competition on the run without a bow.</label>
+                        <label><input name="deeds" value="lion" type="checkbox" class="checkbox">How Mr Pickwick saved a sheep from a mountain lion at the age of three.</label>
+                        <label><input name="deeds" value="moses" type="checkbox" class="checkbox">How Mr. Pickwick taught Moses to part the waters of the Red Sea.</label>
+                        <label><input name="deeds" value="oatmeal" type="checkbox" class="checkbox">How Mr. Pickwick always ate all his oatmeal as a child.</label>
+                        <label><input name="deeds" value="frontend" type="checkbox" class="checkbox">How Mr. Pickwick learned the whole front end in one evening.</label>
+                        <label><input name="deeds" value="canyon" type="checkbox" class="checkbox">As Mr. Pickwick was walking around America in Arizona, he stumbled and broke the earth's crust. Have you heard of the Grand Canyon?</label>
+                        <label><input name="deeds" value="Jesus" type="checkbox" class="checkbox">How Mr. Pickwick taught Jesus how to walk on water.</label>
+                      </div>
+
+                      <div class="form-item">
+                        <p>Write words of admiration to Mr. Pickwick and the club of noble gentlemen, in which he is the unchanging leader and creator.</p>
+                        <textarea id="deferambs" class="textarea" name="deferambs" placeholder="Enter your deferambs here..."></textarea>
+                      </div>
+
+                      <div class="form-item">
+                        <button type="submit" id="submit" class="submit-button">Allow me to become an honorary member of the club</button>
+                      </div>
+
+                </form>
+            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
